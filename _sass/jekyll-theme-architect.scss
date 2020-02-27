@@ -92,7 +92,7 @@ aside#sidebar p.repo-owner a {
   margin-bottom: 40px;
 }
 
-a.button {
+a.button,a.github,a.facebook,a.zalo,a.twitter,a.instagram,a.pinterest,a.linkedin {
   width: 134px;
   height: 58px;
   padding-top: 22px;
@@ -480,7 +480,7 @@ footer a:hover {
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
   }
-  header a.button small {
+  header a.button small,header a.github small,header a.facebook small,header a.zalo small,header a.twitter small,header a.instagram small,header a.pinterest small,header a.linkedin small {
     display: inline;
     font-size: 13px;
   }
