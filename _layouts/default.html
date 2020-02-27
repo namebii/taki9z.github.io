@@ -40,15 +40,33 @@
 	        
 	        <h3>Follow me</h3>
 				{% if site.github.is_user_page %}
-				<a href="{{ site.github.owner_url }}" class="button"><small>Follow me on</small> GitHub</a>
+				<a href="{{ site.github.owner_url }}" target="_blank" class="github"><small>Follow me on</small> GitHub</a>
 				{% endif %}
 				
 				{% if site.github.is_user_page %}
-				<a href="https://www.facebook.com/taki9z" class="button"><small>Follow me on</small> Facebook</a>
+				<a href="https://www.facebook.com/taki9z" target="_blank" class="facebook"><small>Follow me on</small> Facebook</a>
 				{% endif %}
-	        
-	        
-	        
+				
+				{% if site.github.is_user_page %}
+				<a href="https://zalo.me/0965337117" target="_blank" class="zalo"><small>Follow me on</small> Zalo</a>
+				{% endif %}
+				
+				{% if site.github.is_user_page %}
+				<a href="https://twitter.com/taki9z" target="_blank" class="twitter"><small>Follow me on</small> Twitter</a>
+				{% endif %}
+				
+				{% if site.github.is_user_page %}
+				<a href="https://www.instagram.com/taki9z" target="_blank" class="instagram"><small>Follow me on</small> Instagram</a>
+				{% endif %}					
+				
+				{% if site.github.is_user_page %}
+				<a href="https://www.pinterest.com/taki9z" target="_blank" class="pinterest"><small>Follow me on</small> Pinterest</a>
+				{% endif %}
+				
+				{% if site.github.is_user_page %}
+				<a href="https://www.linkedin.com/in/taki9z" target="_blank" class="linkedin"><small>Follow me on</small> Linkedin</a>
+				{% endif %}    
+	        	        
           {% if site.show_downloads %}
             <a href="{{ site.github.zip_url }}" class="button">
               <small>Download</small>
